@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0 !important;
+  font-family: sans-serif;
+}
+
+body .play-container {
+  padding: 1em;
+  text-align: center;
+  border: 1px solid gray;
+  margin: 10px 0;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: #0062cc;
+  cursor: pointer;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgrey;
+}

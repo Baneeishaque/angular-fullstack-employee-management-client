@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="column" *ngFor="let employee of employees">
+    <div class="card">
+      <p>
+        <b>{{ employee.name }}</b>
+      </p>
+      <p>{{ employee.age }}</p>
+      <p>{{ employee.place }}</p>
+      <p>
+        <span class="button"
+          ><a href="/insert?name={{ employee.name }}">Edit</a></span
+        >&NonBreakingSpace;<span
+          class="button"
+          (click)="onDelete(this.employee.name)"
+          >Delete</span
+        >
+      </p>
+    </div>
+  </div>
+</div>

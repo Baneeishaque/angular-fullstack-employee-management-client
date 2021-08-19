@@ -1,0 +1,28 @@
+<div class="play-container">
+  <h3>Employee Insertion</h3>
+  <label for="name">Name: </label>
+  <input
+    id="name"
+    type="text"
+    [(ngModel)]="this.employee.name"
+    placeholder="Employee Name"
+  />
+  <br /><br />
+  <label for="age">Age: </label>
+  <input
+    id="age"
+    type="number"
+    [(ngModel)]="this.employee.age"
+    placeholder="Employee Age"
+  />
+  <br /><br />
+  <label for="place">Place: </label>
+  <input
+    id="place"
+    type="text"
+    [(ngModel)]="this.employee.place"
+    placeholder="Employee Place"
+  />
+  <br /><br />
+  <button (click)="onSave(this.employee)">Submit</button>
+</div>

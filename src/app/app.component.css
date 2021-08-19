@@ -1,0 +1,26 @@
+header {
+  background-color: #563d7c;
+  padding: 20px 0;
+}
+
+header nav ul {
+  display: inline;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background-color: #4a356b;
+}
+
+.main-container {
+  padding: 10px;
+}
